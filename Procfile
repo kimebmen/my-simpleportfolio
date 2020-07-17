@@ -1,1 +1,1 @@
-web: gunicorn jobs:application --preload -b 0.0.0.0:55275
+web: gunicorn wsgi.py --log-file=-
