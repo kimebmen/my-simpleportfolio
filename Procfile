@@ -1,1 +1,1 @@
-web: gunicorn --chdir=portfolio/wsgi.py --log-file=-
+web: gunicorn -w 3 jobs:app
