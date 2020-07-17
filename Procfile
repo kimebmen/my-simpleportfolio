@@ -1,1 +1,1 @@
-web: gunicorn -w 3 jobs:app
+web: gunicorn jobs:application --preload -b 0.0.0.0:55275
